@@ -125,4 +125,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
 //  EXTRA
 
-//Phone
+//Product page
+

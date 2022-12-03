@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/style3.css">
   <link rel="stylesheet" href="../css/footer.css">
-  <link rel="stylesheet" href="../css/websites.css">
+  <!-- <link rel="stylesheet" href="../css/websites.css"> -->
+  <link rel="stylesheet" href="../css/product-page.css">
   
 </head>
 
@@ -63,7 +64,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Готовые Сайты</a>
+            <a href="websites.html" class="navbar-link" data-nav-link>Готовые Сайты</a>
           </li>
 
         </ul>
@@ -107,87 +108,60 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
-      <section class="ready-websites">
         <div class="container">
-          <div class="wrapper">
-            <div class="card">
-              <div class="card-banner">
-                <p class="category-tag popular">Popular</p>
-                <img class="banner-img" src='../images/Portfolio/doclab.png' alt=''>
-              </div>
-              <div class="card-body">
-                <p class="blog-hashtag">#webdevelopment #frontend</p>
-                <h2 class="blog-title">What is the future of front end development?</h2>
-                <p class="blog-description">My thoughts on the future of front end web development Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut, veritatis velit recusandae quo possimus dignissimos porro at sit laudantium consequatur quia accusamus, eum magnam doloribus laboriosam vitae quidem dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum dicta deleniti, nisi eligendi hic amet repellat molestiae quasi quis? Quidem, accusantium repudiandae. Adipisci blanditiis magni, amet reiciendis eius tempora!</p>
-        
-                <!-- <div class="card-profile">
-                  <img class="profile-img" src='../images/Group-5.png' alt=''>
-                  <div class="card-profile-info">
-                    <h3 class="profile-name">Maya Eleanor Peña</h3>
-                    <p class="profile-followers">1.2k followers</p>
+            <div class="product_page-content">
+                
+                  <div class="grid product">
+                    <div class="column-xs-12 column-md-7">
+                      <div class="product-gallery">
+                        <div class="product-image">
+                          <img class="active" src="../images/Portfolio/nft.png">
+                        </div>
+                        <ul class="image-list">
+                          <li class="image-item"><img src="../images/Portfolio/nft.png"></li>
+                          <li class="image-item"><img src="../images/Portfolio/doclab.png"></li>
+                          <li class="image-item"><img src="../images/project-1.jpg"></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="column-xs-12 column-md-5">
+                      <h1>NFT</h1>
+                      <h2>$19.99</h2>
+                      <div class="description">
+                        <p>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
+                        <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+                      </div>
+                      <div class="button-content">
+                        <a href="https://timursadikov23.github.io/NFT/"><button class="add-to-cart">Demo Version</button></a>
+                        <button class="add-to-cart" data-modal="modal-callback">Buy now</button>
+                      </div>
+                      
+                    </div>
                   </div>
-                </div> -->
-                <div class="card-buy">
-                  <a href="product-pages.html" class="btn btn-primary has-before has-after btn-buy">Купить сайт</a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="card">
-              <div class="card-banner">
-                <p class="category-tag technology">Technology</p>
-                <img class="banner-img" src='https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
-              </div>
-              <div class="card-body">
-                <p class="blog-hashtag">#photographer #gearupgrade #selfmade</p>
-                <h2 class="blog-title">Photography gear you need this year</h2>
-                <p class="blog-description">My thoughts on the future of front end web development Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut, veritatis velit recusandae quo possimus dignissimos porro at sit laudantium consequatur quia accusamus, eum magnam doloribus laboriosam vitae quidem dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum dicta deleniti, nisi eligendi hic amet repellat molestiae quasi quis? Quidem, accusantium repudiandae. Adipisci blanditiis magni, amet reiciendis eius tempora!</p>
-        
-                <!-- <div class="card-profile">
-                  <img class="profile-img" src='https://images.unsplash.com/photo-1532332248682-206cc786359f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
-                  <div class="card-profile-info">
-                    <h3 class="profile-name">Darrell Steward</h3>
-                    <p class="profile-followers">45.7k followers</p>
+                  <div class="grid related-products">
+                    <div class="column-xs-12">
+                      <h3>You may also like</h3>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/miziNqvJx5M">
+                      <h4>Succulent</h4>
+                      <p class="price">$19.99</p>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/2y6s0qKdGZg">
+                      <h4>Terranium</h4>
+                      <p class="price">$19.99</p>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/6Rs76hNbIWE">
+                      <h4>Cactus</h4>
+                      <p class="price">$19.99</p>
+                    </div>
                   </div>
-                </div> -->
-
-                <div class="card-buy">
-                  <a href="#" class="btn btn-primary has-before has-after btn-buy" data-modal="modal-callback">Купить сайт</a>
                 </div>
-              </div>
+          
             </div>
-        
-            <div class="card">
-              <div class="card-banner">
-                <p class="category-tag psychology">Psychology</p>
-                <img class="banner-img" src='https://images.unsplash.com/photo-1592496001020-d31bd830651f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
-              </div>
-              <div class="card-body">
-                <p class="blog-hashtag">#mediation #mentalwellness</p>
-                <h2 class="blog-title">Mediation and Mental Wellness Best Practices</h2>
-                <p class="blog-description">My thoughts on the future of front end web development Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut, veritatis velit recusandae quo possimus dignissimos porro at sit laudantium consequatur quia accusamus, eum magnam doloribus laboriosam vitae quidem dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum dicta deleniti, nisi eligendi hic amet repellat molestiae quasi quis? Quidem, accusantium repudiandae. Adipisci blanditiis magni, amet reiciendis eius tempora!</p>
-        
-                <!-- <div class="card-profile">
-                  <img class="profile-img" src='https://images.unsplash.com/photo-1569913486515-b74bf7751574?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
-                  <div class="card-profile-info">
-                    <h3 class="profile-name">Savannah Nguyen</h3>
-                    <p class="profile-followers">318 followers</p>
-                  </div>
-                </div> -->
-                <div class="card-buy">
-                  <a href="#" class="btn btn-primary has-before has-after btn-buy" data-modal="modal-callback">Купить сайт</a>
-                </div>
-              </div>
-            </div>
-        
-          </div>
-    
-        </div>
-      </section>
-    
+            
 
 
 
@@ -434,7 +408,8 @@
   <!-- 
     - custom js link
   -->
-  <script src="../js/script.js" defer></script>
+  <script src="../js/product-page.js"></script>
+  <script src="../js/script.js"></script>
 
   <!-- 
     - ionicon link
